@@ -1,0 +1,1294 @@
+{
+  "schemaVersion": 1,
+  "kind": "practice",
+  "source": "tasks/cue_learning_practice_v1",
+  "generatedAt": "2026-06-03T06:36:00.658Z",
+  "trials": [
+    {
+      "id": "0A_L01",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_a",
+      "targetNode": "B",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 4,
+          "green": 1,
+          "blue": 0,
+          "type": "4-1-0"
+        }
+      },
+      "revealOrder": [
+        "B"
+      ],
+      "correctColor": "red",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "red",
+        "majority_colors": [
+          "red"
+        ],
+        "is_majority_correct": true
+      }
+    },
+    {
+      "id": "0A_L02",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_a",
+      "targetNode": "C",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "C"
+      ],
+      "correctColor": "green",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "green",
+        "majority_colors": [
+          "green"
+        ],
+        "is_majority_correct": true
+      }
+    },
+    {
+      "id": "0A_L03",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_b",
+      "targetNode": "A",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 1,
+          "green": 1,
+          "blue": 3,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "A"
+      ],
+      "correctColor": "blue",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "blue",
+        "majority_colors": [
+          "blue"
+        ],
+        "is_majority_correct": true
+      }
+    },
+    {
+      "id": "0A_L04",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_b",
+      "targetNode": "D",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "D": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "D"
+      ],
+      "correctColor": "red",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "tie:red|green",
+        "majority_colors": [
+          "red",
+          "green"
+        ],
+        "is_majority_correct": true
+      }
+    },
+    {
+      "id": "0A_L05",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_a",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "E": {
+          "red": 1,
+          "green": 3,
+          "blue": 1,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "E"
+      ],
+      "correctColor": "green",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "green",
+        "majority_colors": [
+          "green"
+        ],
+        "is_majority_correct": true
+      }
+    },
+    {
+      "id": "0A_L06",
+      "phase": "practice_learning",
+      "blockId": "0A",
+      "graphId": "practice_5node_b",
+      "targetNode": "B",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 3,
+          "green": 1,
+          "blue": 1,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "B"
+      ],
+      "correctColor": "blue",
+      "feedback": true,
+      "metadata": {
+        "majority_color": "red",
+        "majority_colors": [
+          "red"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C01",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_a",
+      "targetNode": "B",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 4,
+          "green": 1,
+          "blue": 0,
+          "type": "4-1-0"
+        }
+      },
+      "revealOrder": [
+        "B"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "red",
+        "majority_colors": [
+          "red"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C02",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_b",
+      "targetNode": "C",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 0,
+          "green": 4,
+          "blue": 1,
+          "type": "4-1-0"
+        }
+      },
+      "revealOrder": [
+        "C"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "green",
+        "majority_colors": [
+          "green"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C03",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_a",
+      "targetNode": "A",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "red",
+        "majority_colors": [
+          "red"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C04",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_b",
+      "targetNode": "D",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "D": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "D"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "blue",
+        "majority_colors": [
+          "blue"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C05",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_a",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "E": {
+          "red": 3,
+          "green": 1,
+          "blue": 1,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "E"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "red",
+        "majority_colors": [
+          "red"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C06",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_b",
+      "targetNode": "A",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 1,
+          "green": 3,
+          "blue": 1,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "A"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "green",
+        "majority_colors": [
+          "green"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C07",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_a",
+      "targetNode": "C",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "E",
+          "target": "C"
+        },
+        {
+          "source": "C",
+          "target": "D"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "C"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "tie:red|green",
+        "majority_colors": [
+          "red",
+          "green"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0B_C08",
+      "phase": "practice_calibration",
+      "blockId": "0B",
+      "graphId": "practice_5node_b",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "E": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "E"
+      ],
+      "feedback": false,
+      "metadata": {
+        "majority_color": "tie:green|blue",
+        "majority_colors": [
+          "green",
+          "blue"
+        ],
+        "is_majority_correct": false
+      }
+    },
+    {
+      "id": "0C_I01",
+      "phase": "practice_integration",
+      "blockId": "0C",
+      "graphId": "practice_5node_b",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 3,
+          "green": 1,
+          "blue": 1,
+          "type": "3-1-1"
+        }
+      },
+      "revealOrder": [
+        "B"
+      ],
+      "correctColor": "red",
+      "feedback": true,
+      "metadata": {
+        "majority_heuristic_violation": true,
+        "feedback_text": "反馈：目标士兵 E 的真实阵营是红。B 的报告多数为红，但报告不是确定身份；这次 B 实际是绿。因为 E 与 B 相连，E 不能和 B 同阵营，所以 E 可以是红。"
+      }
+    },
+    {
+      "id": "0C_I02",
+      "phase": "practice_integration",
+      "blockId": "0C",
+      "graphId": "practice_5node_b",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A"
+      ],
+      "correctColor": "red",
+      "feedback": true,
+      "metadata": {
+        "majority_heuristic_violation": false,
+        "feedback_text": "反馈：目标士兵 E 的真实阵营是红。A 的报告更支持绿，而 E 与 A 相连，所以 E 不应与 A 同阵营。"
+      }
+    },
+    {
+      "id": "0C_I03",
+      "phase": "practice_integration",
+      "blockId": "0C",
+      "graphId": "practice_5node_b",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "C"
+      ],
+      "correctColor": "green",
+      "feedback": true,
+      "metadata": {
+        "majority_heuristic_violation": false,
+        "feedback_text": "反馈：目标士兵 E 的真实阵营是绿。C 的报告更支持蓝，而 E 与 C 相连，所以蓝对 E 来说不太合适。"
+      }
+    },
+    {
+      "id": "0C_I04",
+      "phase": "practice_integration",
+      "blockId": "0C",
+      "graphId": "practice_5node_b",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 3,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "C"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "B": {
+          "red": 0,
+          "green": 1,
+          "blue": 4,
+          "type": "4-1-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "B"
+      ],
+      "correctColor": "green",
+      "feedback": true,
+      "metadata": {
+        "majority_heuristic_violation": false,
+        "feedback_text": "反馈：目标士兵 E 的真实阵营是绿。A 和 B 分别更像红、蓝；由于 E 与他们相连，绿成为更合理的判断。"
+      }
+    }
+  ]
+}

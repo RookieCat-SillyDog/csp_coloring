@@ -1,0 +1,5232 @@
+{
+  "schemaVersion": 1,
+  "kind": "formal",
+  "source": "tasks/evidence_strength_assignment_v1/selected_evidence_strength_trials.json",
+  "generatedAt": "2026-06-03T06:36:00.661Z",
+  "trials": [
+    {
+      "id": "B1_G1_M1_C000300",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G1_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "C",
+        "A",
+        "D",
+        "F"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.39103068450039147,
+          "green": 0.39103068450039163,
+          "red": 0.21793863099921268
+        },
+        {
+          "blue": 0.6282531314515277,
+          "green": 0.2121204167782414,
+          "red": 0.1596264517702311
+        },
+        {
+          "blue": 0.6424772006437965,
+          "green": 0.31157116213501046,
+          "red": 0.04595163722119424
+        },
+        {
+          "blue": 0.6170411938415084,
+          "green": 0.37900640860933765,
+          "red": 0.00395239754915552
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G1_M1",
+        "mask_id": "B1_G1_M1",
+        "mask_role": "mid_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6170411938415084,
+        "final_top_two_margin": 0.2380347852321707
+      }
+    },
+    {
+      "id": "B1_G1_M2_C001204",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G1_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "D",
+        "B",
+        "H",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.27419354838709675,
+          "green": 0.4516129032258057,
+          "red": 0.2741935483870965
+        },
+        {
+          "blue": 0.07749275651913268,
+          "green": 0.5687048323175796,
+          "red": 0.3538024111632861
+        },
+        {
+          "blue": 0.06497508688865805,
+          "green": 0.6372124958984233,
+          "red": 0.2978124172129156
+        },
+        {
+          "blue": 0.03719161484248692,
+          "green": 0.6383360911637173,
+          "red": 0.32447229399379685
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G1_M2",
+        "mask_id": "B1_G1_M2",
+        "mask_role": "high_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "green",
+        "final_strength": 0.6383360911637173,
+        "final_top_two_margin": 0.3138637971699204
+      }
+    },
+    {
+      "id": "B1_G2_M1_C001692",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G2_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "C",
+        "B",
+        "F",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.21741935483870953,
+          "green": 0.39129032258064483,
+          "red": 0.3912903225806449
+        },
+        {
+          "blue": 0.04748817120533408,
+          "green": 0.44328502526149305,
+          "red": 0.5092268035331712
+        },
+        {
+          "blue": 0.04651665019915282,
+          "green": 0.37577022157374373,
+          "red": 0.5777131282270971
+        },
+        {
+          "blue": 0.0449923584335022,
+          "green": 0.359183667303916,
+          "red": 0.5958239742625809
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G2_M1",
+        "mask_id": "B1_G2_M1",
+        "mask_role": "mid_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "red",
+        "final_strength": 0.5958239742625809,
+        "final_top_two_margin": 0.23664030695866495
+      }
+    },
+    {
+      "id": "B1_G2_M2_C002278",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G2_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "F",
+        "A",
+        "D",
+        "G"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.49598094671032894,
+          "green": 0.0915451027091392,
+          "red": 0.4124739505805276
+        },
+        {
+          "blue": 0.36517171359845596,
+          "green": 0.030645841081860168,
+          "red": 0.6041824453196875
+        },
+        {
+          "blue": 0.33147999898937797,
+          "green": 0.024219753735110296,
+          "red": 0.6443002472755132
+        },
+        {
+          "blue": 0.3634364088055569,
+          "green": 0.014646599079296543,
+          "red": 0.6219169921151501
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G2_M2",
+        "mask_id": "B1_G2_M2",
+        "mask_role": "high_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "red",
+        "final_strength": 0.6219169921151501,
+        "final_top_two_margin": 0.25848058330959317
+      }
+    },
+    {
+      "id": "B1_G3_M1_C002781",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G3_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "C": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "C",
+        "H",
+        "G",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.2842661506400709,
+          "green": 0.4832420363203324,
+          "red": 0.2324918130395944
+        },
+        {
+          "blue": 0.3955974351223673,
+          "green": 0.18138728779417243,
+          "red": 0.42301527708345854
+        },
+        {
+          "blue": 0.6385715159014652,
+          "green": 0.03388263652626924,
+          "red": 0.3275458475722656
+        },
+        {
+          "blue": 0.619365147042997,
+          "green": 0.019158698167028407,
+          "red": 0.361476154789975
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G3_M1",
+        "mask_id": "B1_G3_M1",
+        "mask_role": "mid_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "blue",
+        "final_strength": 0.619365147042997,
+        "final_top_two_margin": 0.25788899225302203
+      }
+    },
+    {
+      "id": "B1_G3_M2_C003456",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G3_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "B",
+        "D",
+        "G"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.2842661506400708,
+          "green": 0.4832420363203324,
+          "red": 0.23249181303959432
+        },
+        {
+          "blue": 0.23280928648419522,
+          "green": 0.5774308186504149,
+          "red": 0.1897598948653875
+        },
+        {
+          "blue": 0.3671090139102758,
+          "green": 0.6073642850038408,
+          "red": 0.02552670108588604
+        },
+        {
+          "blue": 0.3718068316491422,
+          "green": 0.6190601653331069,
+          "red": 0.009133003017750808
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G3_M2",
+        "mask_id": "B1_G3_M2",
+        "mask_role": "high_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "green",
+        "final_strength": 0.6190601653331069,
+        "final_top_two_margin": 0.24725333368396474
+      }
+    },
+    {
+      "id": "B1_G4_M1_C004442",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G4_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "H",
+        "C",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.17393867222387557,
+          "green": 0.5702857993450431,
+          "red": 0.2557755284310804
+        },
+        {
+          "blue": 0.016044998431537533,
+          "green": 0.581163123750906,
+          "red": 0.4027918778175563
+        },
+        {
+          "blue": 0.008624347447679835,
+          "green": 0.5683807380077557,
+          "red": 0.4229949145445683
+        },
+        {
+          "blue": 0.0033156242016123025,
+          "green": 0.6420065922275977,
+          "red": 0.3546777835707911
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G4_M1",
+        "mask_id": "B1_G4_M1",
+        "mask_role": "mid_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "green",
+        "final_strength": 0.6420065922275977,
+        "final_top_two_margin": 0.2873288086568066
+      }
+    },
+    {
+      "id": "B1_G4_M2_C004618",
+      "phase": "formal",
+      "blockId": "B1",
+      "graphId": "B1_G4_near-grid",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "G",
+        "F",
+        "B"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.1739386722238753,
+          "green": 0.25577552843108,
+          "red": 0.5702857993450421
+        },
+        {
+          "blue": 0.20958010520755369,
+          "green": 0.19138558128273978,
+          "red": 0.5990343135097055
+        },
+        {
+          "blue": 0.016011942136420775,
+          "green": 0.33119123410054163,
+          "red": 0.6527968237630384
+        },
+        {
+          "blue": 0.003065682516477515,
+          "green": 0.3704594559068819,
+          "red": 0.6264748615766406
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B1_G4_M2",
+        "mask_id": "B1_G4_M2",
+        "mask_role": "high_info",
+        "block_family": "near-grid",
+        "final_argmax_color": "red",
+        "final_strength": 0.6264748615766406,
+        "final_top_two_margin": 0.25601540566975867
+      }
+    },
+    {
+      "id": "B2_G1_M1_C005482",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G1_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "H",
+        "F",
+        "D",
+        "B"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.41247395058053,
+          "green": 0.09154510270913972,
+          "red": 0.4959809467103305
+        },
+        {
+          "blue": 0.36026215877269835,
+          "green": 0.07876617017986914,
+          "red": 0.5609716710474324
+        },
+        {
+          "blue": 0.5027052040801976,
+          "green": 0.1093920543331443,
+          "red": 0.3879027415866572
+        },
+        {
+          "blue": 0.5834083198715693,
+          "green": 0.00872598823886091,
+          "red": 0.407865691889569
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G1_M1",
+        "mask_id": "B2_G1_M1",
+        "mask_role": "mid_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "blue",
+        "final_strength": 0.5834083198715693,
+        "final_top_two_margin": 0.17554262798200027
+      }
+    },
+    {
+      "id": "B2_G1_M2_C005811",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G1_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "C": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "G": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "I",
+        "G",
+        "C"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.27419354838709675,
+          "green": 0.4516129032258067,
+          "red": 0.2741935483870969
+        },
+        {
+          "blue": 0.18883556522047035,
+          "green": 0.3563374971619726,
+          "red": 0.45482693761755655
+        },
+        {
+          "blue": 0.013821578433598505,
+          "green": 0.2072821307271646,
+          "red": 0.7788962908392371
+        },
+        {
+          "blue": 0.021138995059502376,
+          "green": 0.3297722833711007,
+          "red": 0.6490887215693971
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G1_M2",
+        "mask_id": "B2_G1_M2",
+        "mask_role": "high_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "red",
+        "final_strength": 0.6490887215693971,
+        "final_top_two_margin": 0.3193164381982964
+      }
+    },
+    {
+      "id": "B2_G2_M1_C006851",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G2_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "G": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "B",
+        "G",
+        "F",
+        "D"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.2741935483870972,
+          "green": 0.4516129032258072,
+          "red": 0.27419354838709703
+        },
+        {
+          "blue": 0.23113325662960768,
+          "green": 0.6010860723819121,
+          "red": 0.1677806709884796
+        },
+        {
+          "blue": 0.19904044239294824,
+          "green": 0.6518457760575856,
+          "red": 0.14911378154946545
+        },
+        {
+          "blue": 0.35720092259298275,
+          "green": 0.6388804400634965,
+          "red": 0.003918637343520376
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G2_M1",
+        "mask_id": "B2_G2_M1",
+        "mask_role": "mid_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "green",
+        "final_strength": 0.6388804400634965,
+        "final_top_two_margin": 0.2816795174705138
+      }
+    },
+    {
+      "id": "B2_G2_M2_C007249",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G2_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "C",
+        "F",
+        "G",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.3882488479262678,
+          "green": 0.22350230414746555,
+          "red": 0.3882488479262678
+        },
+        {
+          "blue": 0.5079565112788844,
+          "green": 0.048816793205992054,
+          "red": 0.4432266955151232
+        },
+        {
+          "blue": 0.681310153386045,
+          "green": 0.046029992876353065,
+          "red": 0.2726598537376008
+        },
+        {
+          "blue": 0.6212232602278815,
+          "green": 0.01780717636704636,
+          "red": 0.3609695634050723
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G2_M2",
+        "mask_id": "B2_G2_M2",
+        "mask_role": "high_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6212232602278815,
+        "final_top_two_margin": 0.26025369682280924
+      }
+    },
+    {
+      "id": "B2_G3_M1_C008085",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G3_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "B": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "B",
+        "I",
+        "D",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.09154510270913975,
+          "green": 0.41247395058053,
+          "red": 0.49598094671033094
+        },
+        {
+          "blue": 0.027029312732955096,
+          "green": 0.5860527201507203,
+          "red": 0.38691796711632664
+        },
+        {
+          "blue": 0.018828646370729736,
+          "green": 0.6185255859062414,
+          "red": 0.3626457677230284
+        },
+        {
+          "blue": 0.0061323097080446054,
+          "green": 0.6269356932596146,
+          "red": 0.36693199703234086
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G3_M1",
+        "mask_id": "B2_G3_M1",
+        "mask_role": "mid_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "green",
+        "final_strength": 0.6269356932596146,
+        "final_top_two_margin": 0.26000369622727376
+      }
+    },
+    {
+      "id": "B2_G3_M2_C008707",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G3_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "H",
+        "F",
+        "C"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.18230340662612174,
+          "green": 0.2598456173180793,
+          "red": 0.5578509760557989
+        },
+        {
+          "blue": 0.28633043384634,
+          "green": 0.08444856222284909,
+          "red": 0.6292210039308139
+        },
+        {
+          "blue": 0.3843641732956597,
+          "green": 0.00802461180802743,
+          "red": 0.6076112148963141
+        },
+        {
+          "blue": 0.3866436196829315,
+          "green": 0.002860737603496417,
+          "red": 0.6104956427135726
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G3_M2",
+        "mask_id": "B2_G3_M2",
+        "mask_role": "high_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "red",
+        "final_strength": 0.6104956427135726,
+        "final_top_two_margin": 0.2238520230306411
+      }
+    },
+    {
+      "id": "B2_G4_M1_C009193",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G4_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "D",
+          "target": "H"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "D",
+        "G",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.41247395058052944,
+          "green": 0.495980946710331,
+          "red": 0.09154510270913968
+        },
+        {
+          "blue": 0.6569325851529384,
+          "green": 0.3085514174374954,
+          "red": 0.03451599740956899
+        },
+        {
+          "blue": 0.48060737425159517,
+          "green": 0.49065557393758424,
+          "red": 0.028737051810820556
+        },
+        {
+          "blue": 0.6314686941074912,
+          "green": 0.32913205023684233,
+          "red": 0.0393992556556664
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G4_M1",
+        "mask_id": "B2_G4_M1",
+        "mask_role": "mid_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6314686941074912,
+        "final_top_two_margin": 0.30233664387064885
+      }
+    },
+    {
+      "id": "B2_G4_M2_C009601",
+      "phase": "formal",
+      "blockId": "B2",
+      "graphId": "B2_G4_diagonal-local",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "D",
+          "target": "H"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "B",
+        "C",
+        "H",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.495980946710331,
+          "green": 0.09154510270913968,
+          "red": 0.41247395058053
+        },
+        {
+          "blue": 0.37061913696060034,
+          "green": 0.11532833020637905,
+          "red": 0.5140525328330208
+        },
+        {
+          "blue": 0.5260350905769657,
+          "green": 0.02374522787596564,
+          "red": 0.4502196815470679
+        },
+        {
+          "blue": 0.3658518637413993,
+          "green": 0.008462622089479269,
+          "red": 0.625685514169122
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B2_G4_M2",
+        "mask_id": "B2_G4_M2",
+        "mask_role": "high_info",
+        "block_family": "diagonal-local",
+        "final_argmax_color": "red",
+        "final_strength": 0.625685514169122,
+        "final_top_two_margin": 0.2598336504277227
+      }
+    },
+    {
+      "id": "B3_G1_M1_C010860",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G1_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "D",
+        "B",
+        "F",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.26023456593532035,
+          "green": 0.38250586761009875,
+          "red": 0.35725956645457774
+        },
+        {
+          "blue": 0.05205145550339084,
+          "green": 0.4510413474986783,
+          "red": 0.4969071969979333
+        },
+        {
+          "blue": 0.03989035050571758,
+          "green": 0.5634433691178838,
+          "red": 0.3966662803763976
+        },
+        {
+          "blue": 0.03490713794729967,
+          "green": 0.5924929432825011,
+          "red": 0.3725999187702013
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G1_M1",
+        "mask_id": "B3_G1_M1",
+        "mask_role": "mid_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "green",
+        "final_strength": 0.5924929432825011,
+        "final_top_two_margin": 0.2198930245122998
+      }
+    },
+    {
+      "id": "B3_G1_M2_C011465",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G1_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "C": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 2,
+          "green": 0,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "C",
+        "G",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.36496624156038815,
+          "green": 0.2700675168792188,
+          "red": 0.36496624156038776
+        },
+        {
+          "blue": 0.5152525967176976,
+          "green": 0.3718959837143591,
+          "red": 0.1128514195679445
+        },
+        {
+          "blue": 0.5829923004424679,
+          "green": 0.304241186538803,
+          "red": 0.1127665130187296
+        },
+        {
+          "blue": 0.5621011205930471,
+          "green": 0.3382621174402747,
+          "red": 0.0996367619666761
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G1_M2",
+        "mask_id": "B3_G1_M2",
+        "mask_role": "high_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "blue",
+        "final_strength": 0.5621011205930471,
+        "final_top_two_margin": 0.2238390031527724
+      }
+    },
+    {
+      "id": "B3_G2_M1_C012097",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G2_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "B": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "G": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "B",
+        "F",
+        "G"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.24633577268982337,
+          "green": 0.46266192180674026,
+          "red": 0.291002305503438
+        },
+        {
+          "blue": 0.022290415984797644,
+          "green": 0.48839540844886087,
+          "red": 0.48931417556634715
+        },
+        {
+          "blue": 0.01647110126551249,
+          "green": 0.6060102356695581,
+          "red": 0.3775186630649268
+        },
+        {
+          "blue": 0.012087683133338321,
+          "green": 0.6181053306508695,
+          "red": 0.36980698621579244
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G2_M1",
+        "mask_id": "B3_G2_M1",
+        "mask_role": "mid_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "green",
+        "final_strength": 0.6181053306508695,
+        "final_top_two_margin": 0.24829834443507703
+      }
+    },
+    {
+      "id": "B3_G2_M2_C012672",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G2_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "C",
+        "D",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.2700675168792192,
+          "green": 0.36496624156038887,
+          "red": 0.36496624156038887
+        },
+        {
+          "blue": 0.0842568990568861,
+          "green": 0.3936091104008942,
+          "red": 0.5221339905422203
+        },
+        {
+          "blue": 0.0629943925342751,
+          "green": 0.379223519104272,
+          "red": 0.5577820883614507
+        },
+        {
+          "blue": 0.0539768655901273,
+          "green": 0.3248566643269709,
+          "red": 0.6211664700829012
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G2_M2",
+        "mask_id": "B3_G2_M2",
+        "mask_role": "high_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "red",
+        "final_strength": 0.6211664700829012,
+        "final_top_two_margin": 0.29630980575593024
+      }
+    },
+    {
+      "id": "B3_G3_M1_C012962",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G3_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "B": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "G",
+        "F",
+        "B",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.4871985710032733,
+          "green": 0.2829711223578439,
+          "red": 0.22983030663887988
+        },
+        {
+          "blue": 0.5443938088428985,
+          "green": 0.4059675359065615,
+          "red": 0.04963865525053986
+        },
+        {
+          "blue": 0.5675955950544483,
+          "green": 0.4215726077471541,
+          "red": 0.010831797198400056
+        },
+        {
+          "blue": 0.6241770887528594,
+          "green": 0.3687711716863295,
+          "red": 0.007051739560812026
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G3_M1",
+        "mask_id": "B3_G3_M1",
+        "mask_role": "mid_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6241770887528594,
+        "final_top_two_margin": 0.2554059170665299
+      }
+    },
+    {
+      "id": "B3_G3_M2_C013641",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G3_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "C": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "C",
+        "D",
+        "H",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.49598094671032916,
+          "green": 0.09154510270913935,
+          "red": 0.41247395058052844
+        },
+        {
+          "blue": 0.48394253205364823,
+          "green": 0.03211493589270334,
+          "red": 0.4839425320536482
+        },
+        {
+          "blue": 0.5299227724519343,
+          "green": 0.023654440024961098,
+          "red": 0.44642278752310377
+        },
+        {
+          "blue": 0.36435587049671075,
+          "green": 0.019786980396898652,
+          "red": 0.6158571491063903
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G3_M2",
+        "mask_id": "B3_G3_M2",
+        "mask_role": "high_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "red",
+        "final_strength": 0.6158571491063903,
+        "final_top_two_margin": 0.2515012786096796
+      }
+    },
+    {
+      "id": "B3_G4_M1_C014178",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G4_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "G": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "H",
+        "G",
+        "B"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.3924731182795686,
+          "green": 0.3924731182795686,
+          "red": 0.21505376344085986
+        },
+        {
+          "blue": 0.5097208060765058,
+          "green": 0.4433077090517487,
+          "red": 0.046971484871744976
+        },
+        {
+          "blue": 0.4724544984702463,
+          "green": 0.5174331187789658,
+          "red": 0.010112382750788329
+        },
+        {
+          "blue": 0.3761349259356149,
+          "green": 0.6171278629942193,
+          "red": 0.006737211070167199
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G4_M1",
+        "mask_id": "B3_G4_M1",
+        "mask_role": "mid_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "green",
+        "final_strength": 0.6171278629942193,
+        "final_top_two_margin": 0.24099293705860436
+      }
+    },
+    {
+      "id": "B3_G4_M2_C015305",
+      "phase": "formal",
+      "blockId": "B3",
+      "graphId": "B3_G4_sparse-bridge",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "C": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "C",
+        "D",
+        "F"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.37096774193548315,
+          "green": 0.37096774193548315,
+          "red": 0.25806451612903203
+        },
+        {
+          "blue": 0.5143769968051101,
+          "green": 0.26837060702875337,
+          "red": 0.21725239616613337
+        },
+        {
+          "blue": 0.45702066999287244,
+          "green": 0.3113328581610831,
+          "red": 0.2316464718460439
+        },
+        {
+          "blue": 0.6141042516942662,
+          "green": 0.33376063596396965,
+          "red": 0.05213511234176628
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B3_G4_M2",
+        "mask_id": "B3_G4_M2",
+        "mask_role": "high_info",
+        "block_family": "sparse-bridge",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6141042516942662,
+        "final_top_two_margin": 0.28034361573029654
+      }
+    },
+    {
+      "id": "B4_G1_M1_C015714",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G1_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "G",
+        "F",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.36290322580645007,
+          "green": 0.2741935483870959,
+          "red": 0.36290322580645024
+        },
+        {
+          "blue": 0.35074141519250684,
+          "green": 0.29851716961498326,
+          "red": 0.35074141519250635
+        },
+        {
+          "blue": 0.4425073737100856,
+          "green": 0.06520134543184737,
+          "red": 0.4922912808580665
+        },
+        {
+          "blue": 0.3523480231173301,
+          "green": 0.014851150342973274,
+          "red": 0.6328008265396997
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G1_M1",
+        "mask_id": "B4_G1_M1",
+        "mask_role": "mid_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "red",
+        "final_strength": 0.6328008265396997,
+        "final_top_two_margin": 0.2804528034223696
+      }
+    },
+    {
+      "id": "B4_G1_M2_C016553",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G1_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "B",
+        "C",
+        "D",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.41247395058052655,
+          "green": 0.09154510270913899,
+          "red": 0.49598094671032733
+        },
+        {
+          "blue": 0.6330153940986559,
+          "green": 0.033651272568008116,
+          "red": 0.333333333333332
+        },
+        {
+          "blue": 0.5238405262098123,
+          "green": 0.030192709340934765,
+          "red": 0.44596676444925165
+        },
+        {
+          "blue": 0.6443799469650251,
+          "green": 0.02254944716656831,
+          "red": 0.3330706058684051
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G1_M2",
+        "mask_id": "B4_G1_M2",
+        "mask_role": "high_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6443799469650251,
+        "final_top_two_margin": 0.31130934109662
+      }
+    },
+    {
+      "id": "B4_G2_M1_C017230",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G2_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 3,
+          "green": 0,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "G": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "G",
+        "B",
+        "C",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.272886275677284,
+          "green": 0.3531184876451312,
+          "red": 0.3739952366775813
+        },
+        {
+          "blue": 0.3397704049627047,
+          "green": 0.5829049413183109,
+          "red": 0.07732465371898212
+        },
+        {
+          "blue": 0.35969725883945336,
+          "green": 0.6012363403403651,
+          "red": 0.03906640082018126
+        },
+        {
+          "blue": 0.35082891454853093,
+          "green": 0.5864128443716827,
+          "red": 0.06275824107978581
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G2_M1",
+        "mask_id": "B4_G2_M1",
+        "mask_role": "mid_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "green",
+        "final_strength": 0.5864128443716827,
+        "final_top_two_margin": 0.2355839298231518
+      }
+    },
+    {
+      "id": "B4_G2_M2_C017718",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G2_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "F",
+        "A",
+        "D",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.49598094671032916,
+          "green": 0.41247395058052816,
+          "red": 0.09154510270913929
+        },
+        {
+          "blue": 0.6719741858656052,
+          "green": 0.26753834186441666,
+          "red": 0.06048747226997254
+        },
+        {
+          "blue": 0.6323757070556719,
+          "green": 0.3001488538255438,
+          "red": 0.06747543911878541
+        },
+        {
+          "blue": 0.6429810338025536,
+          "green": 0.3051825333802867,
+          "red": 0.05183643281716198
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G2_M2",
+        "mask_id": "B4_G2_M2",
+        "mask_role": "high_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "blue",
+        "final_strength": 0.6429810338025536,
+        "final_top_two_margin": 0.33779850042226683
+      }
+    },
+    {
+      "id": "B4_G3_M1_C018026",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G3_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 2,
+          "green": 1,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "H": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "I": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "I",
+        "H",
+        "C",
+        "B"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.3407258064516122,
+          "green": 0.3407258064516122,
+          "red": 0.3185483870967733
+        },
+        {
+          "blue": 0.28249754178957637,
+          "green": 0.28249754178957637,
+          "red": 0.4350049164208447
+        },
+        {
+          "blue": 0.3079835390946504,
+          "green": 0.22650205761316877,
+          "red": 0.4655144032921817
+        },
+        {
+          "blue": 0.33853251416319463,
+          "green": 0.04209310705592824,
+          "red": 0.6193743787808805
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G3_M1",
+        "mask_id": "B4_G3_M1",
+        "mask_role": "mid_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "red",
+        "final_strength": 0.6193743787808805,
+        "final_top_two_margin": 0.2808418646176859
+      }
+    },
+    {
+      "id": "B4_G3_M2_C018994",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G3_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "A",
+          "target": "E"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "C",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "G",
+          "target": "H"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 0,
+          "green": 2,
+          "blue": 3,
+          "type": "3-2-0"
+        },
+        "C": {
+          "red": 1,
+          "green": 2,
+          "blue": 2,
+          "type": "2-2-1"
+        },
+        "D": {
+          "red": 1,
+          "green": 3,
+          "blue": 1,
+          "type": "3-1-1"
+        },
+        "G": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        }
+      },
+      "revealOrder": [
+        "G",
+        "D",
+        "C",
+        "A"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.27419354838709553,
+          "green": 0.3629032258064508,
+          "red": 0.3629032258064508
+        },
+        {
+          "blue": 0.2102198685779252,
+          "green": 0.5115479524218817,
+          "red": 0.27823217900019415
+        },
+        {
+          "blue": 0.18801795532241164,
+          "green": 0.5754866596612449,
+          "red": 0.2364953850163444
+        },
+        {
+          "blue": 0.011397864483143508,
+          "green": 0.6121780911476641,
+          "red": 0.37642404436919236
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G3_M2",
+        "mask_id": "B4_G3_M2",
+        "mask_role": "high_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "green",
+        "final_strength": 0.6121780911476641,
+        "final_top_two_margin": 0.23575404677847173
+      }
+    },
+    {
+      "id": "B4_G4_M1_C019241",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G4_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "A": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "F": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "G": {
+          "red": 0,
+          "green": 3,
+          "blue": 2,
+          "type": "3-2-0"
+        },
+        "H": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "A",
+        "F",
+        "G",
+        "H"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.2520095266448354,
+          "green": 0.2937630247097348,
+          "red": 0.4542274486454275
+        },
+        {
+          "blue": 0.29188195926067123,
+          "green": 0.0755137461084001,
+          "red": 0.6326042946309098
+        },
+        {
+          "blue": 0.3005767518355317,
+          "green": 0.08445181925065996,
+          "red": 0.6149714289138123
+        },
+        {
+          "blue": 0.36597463993022883,
+          "green": 0.011320754910882158,
+          "red": 0.6227046051588875
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G4_M1",
+        "mask_id": "B4_G4_M1",
+        "mask_role": "mid_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "red",
+        "final_strength": 0.6227046051588875,
+        "final_top_two_margin": 0.25672996522865865
+      }
+    },
+    {
+      "id": "B4_G4_M2_C019993",
+      "phase": "formal",
+      "blockId": "B4",
+      "graphId": "B4_G4_tree-like-mixed",
+      "targetNode": "E",
+      "nodes": [
+        {
+          "id": "A",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "id": "B",
+          "x": 1,
+          "y": 2
+        },
+        {
+          "id": "C",
+          "x": 2,
+          "y": 2
+        },
+        {
+          "id": "D",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "id": "E",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "id": "F",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "id": "G",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "H",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "id": "I",
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "edges": [
+        {
+          "source": "A",
+          "target": "B"
+        },
+        {
+          "source": "A",
+          "target": "D"
+        },
+        {
+          "source": "B",
+          "target": "C"
+        },
+        {
+          "source": "B",
+          "target": "E"
+        },
+        {
+          "source": "D",
+          "target": "G"
+        },
+        {
+          "source": "E",
+          "target": "F"
+        },
+        {
+          "source": "E",
+          "target": "H"
+        },
+        {
+          "source": "F",
+          "target": "I"
+        },
+        {
+          "source": "H",
+          "target": "I"
+        }
+      ],
+      "cueTables": {
+        "B": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "D": {
+          "red": 2,
+          "green": 2,
+          "blue": 1,
+          "type": "2-2-1"
+        },
+        "F": {
+          "red": 3,
+          "green": 2,
+          "blue": 0,
+          "type": "3-2-0"
+        },
+        "I": {
+          "red": 2,
+          "green": 3,
+          "blue": 0,
+          "type": "3-2-0"
+        }
+      },
+      "revealOrder": [
+        "B",
+        "D",
+        "F",
+        "I"
+      ],
+      "posteriors": [
+        {
+          "blue": 0.49598094671033616,
+          "green": 0.4124739505805342,
+          "red": 0.09154510270914061
+        },
+        {
+          "blue": 0.49695740365111535,
+          "green": 0.4123016346498019,
+          "red": 0.09074096169908107
+        },
+        {
+          "blue": 0.5801583048774791,
+          "green": 0.4002892601957186,
+          "red": 0.01955243492680269
+        },
+        {
+          "blue": 0.38550788534152497,
+          "green": 0.6073858688579077,
+          "red": 0.0071062458005682165
+        }
+      ],
+      "metadata": {
+        "trial_stub_id": "B4_G4_M2",
+        "mask_id": "B4_G4_M2",
+        "mask_role": "high_info",
+        "block_family": "tree-like-mixed",
+        "final_argmax_color": "green",
+        "final_strength": 0.6073858688579077,
+        "final_top_two_margin": 0.22187798351638272
+      }
+    }
+  ]
+}
